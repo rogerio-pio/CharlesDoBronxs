@@ -78,7 +78,7 @@ body.imagens #navegacao a#imagens
 
 .background::before{
     content: "";
-    background-image: url(/imagens/octogon.png);
+    background-image: url(imagens/octogono.png);
     background-size: cover;
     background-position: center top;
     position: absolute;
@@ -189,7 +189,7 @@ html{
 
 #boxCuriosidades1::before{
     content: "";
-    background-image: url(/imagens/oliveira.jpg);  
+    background-image: url(imagens/oliveira.jpg);  
     background-size: cover;
     background-position: center top;
     position: absolute;
@@ -242,7 +242,7 @@ html{
 
 #boxCuriosidades2::before{
     content: "";
-    background-image: url(/imagens/apontando.jpg);  
+    background-image: url(imagens/apontando.jpg);  
     background-size: cover;
     background-position: center top;
     position: absolute;
@@ -287,7 +287,7 @@ html{
 
 #boxCuriosidades3::before{
     content: "";
-    background-image: url(/imagens/primeira.jpg);  
+    background-image: url(imagens/charlesFundo.jpg);  
     background-size: cover;
     background-position: center top;
     position: absolute;
