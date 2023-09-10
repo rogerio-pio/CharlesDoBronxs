@@ -3,20 +3,20 @@
     padding: 0px;
 }
 
-
 body{
+    width: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: #FFFFFF;
     background: #060606;
 }
 
-#container {
+header {
     width:auto;
     height: 90px;
     margin: auto;
 }
 
-#topo {
+#icon {
     width:45px;
     position: absolute;
     top: 2.0%;
@@ -25,7 +25,7 @@ body{
     border-radius: 15px;
 }
 
-#topo:hover{
+#icon:hover{
     opacity: 1;
     transition: 1.0s;
 }
@@ -33,21 +33,21 @@ body{
 ul{
     position: absolute;
     margin-top: 30px;
-    margin: 5;
     padding: 0;
     list-style: none;
 }
 
-#container ul{
-    margin-left: 660px;
+nav ul{
+    display: flex;
+    margin-left: 60%;
     float: left;
 }
 
-#container ul li{
+nav ul li{
     float: left;
 }
 
-#container ul a{
+nav ul a{
     font-size: 1.05em;
     font-weight: bold;
     display: block;
@@ -56,7 +56,7 @@ ul{
     color: #FFFFFF;
 }
 
-#container ul a:hover{
+nav ul a:hover{
     color: #15C6BB;
 }
 
@@ -70,8 +70,8 @@ body.imagens #navegacao a#imagens
 }
 
 .background{
-    width: auto;
-    min-height: 90vh;
+    min-height: 95vh;
+    width: 98vw;
     display: flex;
     position: relative;
 }
@@ -89,20 +89,16 @@ body.imagens #navegacao a#imagens
     opacity: 0.2;
 }
 
-#box2 .titulo{
-    color: #15C6BB;
-    font-size: 75px;
-    font-weight: bold;
-    font-weight: bold;
-    position: relative;
-    margin-left: 10px;
-    text-align: center;
+main{
+    margin-top: 6%;
+    height: 50vh;
+    width: 58vw;
+    margin-left: 50px;
 }
 
-#box2 .titulo01{
+main #titulo01{
     color: #15C6BB;
     font-size: 75px;
-    font-weight: bold;
     font-weight: bold;
     position: absolute;
     margin-left: 35px;
@@ -118,27 +114,30 @@ body.imagens #navegacao a#imagens
     margin-top: 50px;
 }
 
-#box2{
-    margin-top: 90px;
-    height: 350px;
-    width: 790px;
-    margin-left: 50px;
-    float: left;
-}
-
-#img1{
-    height: 450px;
-    margin-top: 30px;
-    margin-left: 0%;
+main #titulo{
+    color: #15C6BB;
+    font-size: 75px;
+    font-weight: bold;
     position: relative;
-    border-radius: 20px;
+    margin-left: 10px;
+    text-align: center;
 }
 
-#box3{
-    height: 105vh;
+main img{
+    height: 450px;
+    margin-top: -290px;
+    margin-left: 60vw;
+    border-radius: 20px;
+    position: absolute;
 }
+
 
 #boxBiografia{
+    height: 105vh;
+    max-width: auto;
+}
+
+#boxBiografia h2{
     width: 150px;
     color: #15C6BB;
     margin-top: 5%;
@@ -153,7 +152,7 @@ body.imagens #navegacao a#imagens
     margin-left: 3%;
 }
 
-#textoBiografia{
+#boxBiografia p{
     margin-top: 2.5%;
     width: 55%;
     height: 80vh;
@@ -173,12 +172,19 @@ html{
     margin-block-end: -2%;
 }
 
-#box4{
+#boxCuriosidades{
     height: 180vh;
     border: 1px solid #060606;
 }
 
-#boxCuriosidades1{
+#boxCuriosidades h2{
+    color: #15C6BB;
+    margin-top: 3%;
+    margin-left: 80px;
+    font-size: 1.8em;
+}
+
+#acoesSociais{
     height: 50vh;
     margin-top: 2.5%;
     margin-left: 80px;
@@ -187,7 +193,7 @@ html{
     position: relative;
 }
 
-#boxCuriosidades1::before{
+#acoesSociais::before{
     content: "";
     background-image: url(../imagens/oliveira.jpg);  
     background-size: cover;
@@ -200,29 +206,24 @@ html{
     opacity: 0.2;
 }
 
-#h2Curiosidades{
-    color: #15C6BB;
-    margin-top: 3%;
-    margin-left: 80px;
-}
-
-#curiosidades1{
+#acoesSociais h2{
     position: relative;
     color:#15C6BB;
-    margin-left: 13%;
-    margin-top: 2%;
+    margin-left: 15%;
+    margin-top: 3%;
 }
 
-#boxCuriosidades1 p{
+#acoesSociais p{
     position: absolute;
     font-size: 1.1em;
     width: 22em;
     color: #FFFFFF;
-    margin-left: 4%;
+    margin-left: 8%;
     margin-top: 8%;
+    text-align: justify;
 }
 
-#boxCuriosidades1{
+#acoesSociais{
     height: 50vh;
     margin-top: 2.5%;
     margin-left: 80px;
@@ -231,7 +232,7 @@ html{
     position: relative;
 }
 
-#boxCuriosidades2{
+#apelido{
     height: 50vh;
     margin-top: 2.5%;
     margin-left: 80px;
@@ -240,7 +241,7 @@ html{
     position: relative;
 }
 
-#boxCuriosidades2::before{
+#apelido::before{
     content: "";
     background-image: url(../imagens/apontando.jpg);  
     background-size: cover;
@@ -253,30 +254,32 @@ html{
     opacity: 0.2;
 }
 
-#curiosidades2{
+#apelido h3{
     position: relative;
     color:#15C6BB;
-    margin-left: 6%;
-    margin-top: 2%;
+    margin-left: 6.8%;
+    margin-top: 2.5%;
+    font-size: 1.8em;
 }
 
-#boxCuriosidades2 p{
+#apelido p{
     position: absolute;
     font-size: 1.1em;
     width: 22em;
     color: #FFFFFF;
-    margin-left: 4%;
+    margin-left: 8%;
     margin-top: 8%;
+    text-align: justify;
 }
 
-#img6{
+#apelido img{
     position: absolute;
     height: 79%;
-    margin-top: 3%;
-    margin-left: 50%;
+    margin-top: 2.5%;
+    margin-left: 55%;
 }
 
-#boxCuriosidades3{
+#problemaVisao{
     height: 50vh;
     margin-top: 2.5%;
     margin-left: 80px;
@@ -285,7 +288,7 @@ html{
     position: relative;
 }
 
-#boxCuriosidades3::before{
+#problemaVisao::before{
     content: "";
     background-image: url(../imagens/charlesFundo.jpg);  
     background-size: cover;
@@ -298,23 +301,25 @@ html{
     opacity: 0.2;
 }
 
-#curiosidades3{
+#problemaVisao h4{
     position: relative;
     color:#15C6BB;
-    margin-left: 11%;
-    margin-top: 2%;
+    margin-left: 12%;
+    margin-top: 2.5%;
+    font-size: 1.8em;
 }
 
-#boxCuriosidades3 p{
+#problemaVisao p{
     position: absolute;
     font-size: 1.1em;
     width: 22em;
     color: #FFFFFF;
-    margin-left: 4%;
+    margin-left: 8%;
     margin-top: 8%;
+    text-align: justify;
 }
 
-#img7{
+#problemaVisao img{
     position: absolute;
     height: 79%;
     margin-top: 3%;
@@ -328,6 +333,7 @@ html{
     height: 80%;
     overflow: hidden;
     position: relative;
+    display: flex;
 }
 
 .slides{
@@ -353,9 +359,10 @@ html{
 }
 
 .manualNavegacao{
+    display: flex;
     position: absolute;
     width: 330px;
-    margin-top: 30px;
+    margin-top: 80%;
     margin-left: 45%;
     display: flex;
     align-items: center;
@@ -396,7 +403,7 @@ html{
 .navegacao{
     position: absolute;
     width: 330px;
-    margin-top: 240px;
+    margin-top: 80%;
     margin-left: 45%;
     display: flex;
     align-items: center;

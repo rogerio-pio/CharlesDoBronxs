@@ -1,0 +1,213 @@
+@media (max-width: 900px){
+    /*body{
+        max-width: 768px;
+        height: auto;
+    }*/
+
+    .background{
+        max-height: 100vh;
+    }
+
+    header{
+        height: 14vh;
+        display: flex;
+        align-items: center;
+    }
+
+    #icon{
+        height: 10vh;
+        width: auto;
+        margin-left: 5%;
+    }
+
+    nav ul{
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-left: 50%;
+        margin-top: 0%;
+    }
+
+    nav ul a{
+        font-size: 0.85em;
+        padding: 0.2em 0.5em;
+    }
+
+    main{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85vw;
+        height: 100vh;
+        margin-left: 5vw;
+    }
+
+    main #titulo01{
+        display:flex;
+        align-self: baseline;
+        margin: 4% 1%;
+        font-size: 3em;
+        position: absolute;
+    }
+
+    #frase{
+        display: flex;
+        text-align:left;
+        position: relative;
+        font-size: 1.4em;
+        margin: 10% 7%;
+    }
+
+    main #titulo{
+        margin: -7% ;
+        font-size: 3em;
+        position: relative;
+    }
+
+    main img{
+        position: relative;
+        max-width: 300px;
+        height: auto;
+        margin: 10%;
+    }
+    #boxBiografia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #boxBiografia h2{
+        display: flex;
+        text-align: center;
+        margin: 10% 7%;
+        font-size: 1.5em;
+    }
+
+    #boxBiografia p{
+        width: auto;
+        margin: -3% 7%;
+        font-size: 1.0em;
+    }
+
+    #img2{
+        margin-top: 8%;
+        align-self: center;
+        position: absolute;
+        opacity: 10%;
+    }
+
+    #img3{
+        position: absolute;
+        opacity: 0;
+    }
+
+    #boxCuriosidades{
+        max-height: auto;
+        max-width: auto;
+    }
+
+    #boxCuriosidades h2{
+        margin-left: 7%;
+        font-size: 1.5em;
+    }
+
+    #acoesSociais{
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+
+    #acoesSociais h2{
+        align-self: center;
+        margin-top: 8%;
+        position: relative;
+        font-size: 1.05em;
+    }
+
+    #acoesSociais p{
+        width: auto;
+        text-align:justify;
+        position: relative;
+        margin: 5%;
+        font-size: 1em;
+    }
+
+    .slider{
+        display: flex;
+        align-items: baseline;
+        margin-top: 0%;
+        margin-left: 3%;
+    }
+
+    .manualNavegacao{
+        margin-top: 80%;
+        margin-left: 45%;
+    }
+
+    .navegacao{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        margin-top: 80%;
+    }
+
+    #apelido{
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+
+    #apelido h3{
+        align-self: center;
+        margin-top: 8%;
+        position: relative;
+        font-size: 1.05em;
+    }
+
+    #apelido p{
+        width: auto;
+        text-align:justify;
+        position: relative;
+        margin: 8%;
+        font-size: 1em;
+    }
+
+    #apelido img{
+        align-self: center;
+        position: relative;
+        margin: -5% 0;
+        height: auto;
+        max-width: 300px;
+    }
+
+    #problemaVisao{
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+
+    #problemaVisao h4{
+        display: flex;
+        align-self: center;
+        margin-top: 8%;
+        position: relative;
+        font-size: 1.05em;
+    }
+
+    #problemaVisao p{
+        width: auto;
+        text-align:justify;
+        position: relative;
+        margin: 10%;
+        font-size: 1em;
+    }
+
+    #problemaVisao img{
+        align-self: center;
+        position: relative;
+        margin: 0 0;
+        height: auto;
+        max-width: 400px;
+    }
+
+}
