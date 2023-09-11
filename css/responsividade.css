@@ -16,6 +16,7 @@
     }
 
     #icon{
+        opacity: 1;
         height: 10vh;
         width: auto;
         margin-left: 5%;
@@ -233,6 +234,55 @@
         max-width: 300px;
         height: auto;
         margin: 4%;
+    }
+
+    .imagens footer{
+        margin-top: auto;
+    }
+
+    .rodape{
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-top: 150%;
+    }
+
+    .rodape #minhasRedes h2{
+        display: flex;
+        width: 22vw;
+        position: absolute;
+        font-size: 0.7em;
+        color: #15C6BB;
+        margin: -50% -60%;
+    }
+
+    .rodape #minhasRedes{
+        display: flex;
+        margin: 4% 10%;
+    }
+
+    .rodape h3{
+        position: absolute;
+        font-size: 1em;
+        color: #FFFFFF;
+        align-self: center;
+        margin-left: 30%;
+        margin-top: 12%;
+    }
+
+    .rodape #redesCharles{
+        position: relative;
+        display: flex;
+        margin: 4% 80%;
+    }
+
+    .rodape #redesCharles h2{
+        display: flex;
+        width: 18vw;
+        position: absolute;
+        font-size: 0.7em;
+        color: #15C6BB;
+        margin: -50% -60%;
     }
 
 }

@@ -456,3 +456,70 @@ html{
     border: 2px solid #15C6BB;
     border-radius: 2%;
 }
+
+.imagens footer{
+    background-color: #060606;
+}
+
+.rodape{
+    display: flex;
+    background-color: #0B0B0B;
+    max-width: auto;
+    height: 25vh;
+}
+
+.rodape #minhasRedes h2{
+    display: flex;
+    width: 12vw;
+    position: absolute;
+    font-size: 0.9em;
+    color: #15C6BB;
+    margin: -70% -100%;
+}
+
+.rodape #minhasRedes{
+    display: flex;
+    margin: 4% 10%;
+}
+
+.rodape #minhasRedes a{
+    display: block;
+    padding: 8px;
+}
+
+.rodape #minhasRedes li a img{
+    max-width: 25px;
+}
+
+.rodape h3{
+    position: absolute;
+    font-size: 1em;
+    color: #FFFFFF;
+    align-self: center;
+    margin-left: 45%;
+    margin-top: 3%;
+}
+
+.rodape #redesCharles{
+    position: relative;
+    display: flex;
+    margin: 4% 87%;
+}
+
+.rodape #redesCharles h2{
+    display: flex;
+    width: 10vw;
+    position: absolute;
+    font-size: 0.9em;
+    color: #15C6BB;
+    margin: -70% -80%;
+}
+
+.rodape #redesCharles a{
+    display: block;
+    padding: 8px;
+}
+
+.rodape #redesCharles li a img{
+    max-width: 25px;
+}
