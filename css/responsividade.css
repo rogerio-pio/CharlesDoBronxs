@@ -1,11 +1,12 @@
 @media (max-width: 900px){
-    /*body{
-        max-width: 768px;
+    body{
+        width: auto;
         height: auto;
-    }*/
+    }
 
     .background{
         max-height: 100vh;
+        width: auto;
     }
 
     header{
@@ -21,6 +22,7 @@
     }
 
     nav ul{
+        width: auto;
         display: flex;
         align-items: center;
         position: relative;
@@ -33,7 +35,7 @@
         padding: 0.2em 0.5em;
     }
 
-    main{
+    .background main{
         position: relative;
         display: flex;
         flex-direction: column;
@@ -43,10 +45,10 @@
         margin-left: 5vw;
     }
 
-    main #titulo01{
+    .background main #titulo01{
         display:flex;
         align-self: baseline;
-        margin: 4% 1%;
+        margin: 5% 2%;
         font-size: 3em;
         position: absolute;
     }
@@ -59,18 +61,19 @@
         margin: 10% 7%;
     }
 
-    main #titulo{
+    .background main #titulo{
         margin: -7% ;
         font-size: 3em;
         position: relative;
     }
 
-    main img{
+    .background main img{
         position: relative;
         max-width: 300px;
         height: auto;
         margin: 10%;
     }
+
     #boxBiografia{
         display: flex;
         flex-direction: column;
@@ -93,7 +96,12 @@
         margin-top: 8%;
         align-self: center;
         position: absolute;
-        opacity: 10%;
+        opacity: 0.15;
+    }
+
+    #img2:hover{
+        opacity: 1;
+        transition: 1.3s;
     }
 
     #img3{
@@ -107,6 +115,7 @@
     }
 
     #boxCuriosidades h2{
+        margin-top: 15%;
         margin-left: 7%;
         font-size: 1.5em;
     }
@@ -208,6 +217,22 @@
         margin: 0 0;
         height: auto;
         max-width: 400px;
+    }
+
+    .imagens main{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .imagens main img{
+        opacity: 1;
+        position: relative;
+        max-width: 300px;
+        height: auto;
+        margin: 4%;
     }
 
 }
