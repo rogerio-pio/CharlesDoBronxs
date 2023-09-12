@@ -250,30 +250,27 @@
     .rodape #minhasRedes h2{
         display: flex;
         width: 22vw;
-        position: absolute;
         font-size: 0.7em;
-        color: #15C6BB;
-        margin: -50% -60%;
+        margin: -40% -45%;
     }
 
     .rodape #minhasRedes{
         display: flex;
-        margin: 4% 10%;
+        margin: 4% 12%;
     }
 
     .rodape h3{
         position: absolute;
-        font-size: 1em;
+        font-size: 0.75em;
         color: #FFFFFF;
         align-self: center;
-        margin-left: 30%;
-        margin-top: 12%;
+        margin-left: 35%;
     }
 
     .rodape #redesCharles{
         position: relative;
         display: flex;
-        margin: 4% 80%;
+        margin: 4% 75%;
     }
 
     .rodape #redesCharles h2{
@@ -281,8 +278,7 @@
         width: 18vw;
         position: absolute;
         font-size: 0.7em;
-        color: #15C6BB;
-        margin: -50% -60%;
+        margin: -40% -30%;
     }
 
 }
